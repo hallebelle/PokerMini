@@ -1,0 +1,13 @@
+# POKER MINI - names.txt: the names you can type for her (R2 in her menu, once you are married).
+# Keep the name names.txt next to the game. Delete this file to get a fresh copy. The full guide is TEXT_GUIDE.txt.
+# One name per line, letters A-Z and spaces only (the on-screen keyboard has nothing else), 16 characters at most. Upper or lower case does not matter.
+# [MAMA]    names that switch her to mama mode (her mama dialogue and the BREASTFEED row)
+# [SOPHIA]  names that switch her back. SOPHIA itself always works, even if you delete it here.
+# Any other name changes nothing. Add as many names as you like. Anything refused is written to text_log.txt.
+
+[MAMA]
+MAMA
+MAMA SOPHIA
+
+[SOPHIA]
+SOPHIA
