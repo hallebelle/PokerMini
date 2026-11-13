@@ -1,0 +1,57 @@
+name: build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  STB: https://raw.githubusercontent.com/nothings/stb/master
+jobs:
+  miyoo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Logic tests (rules, betting, her AI, bank, save file, dialogue limits)
+        run: |
+          gcc -O2 -Wall tests/test_logic.c -o test_logic -lm
+          ./test_logic
+      - name: Fetch stb_image
+        run: curl -fL -o src/stb_image.h $STB/stb_image.h
+      - name: Cross-compile for Miyoo Mini
+        run: |
+          # the toolchain sets CROSS_COMPILE/PATH for interactive shells, so use bash -i
+          docker run --rm -v "$PWD":/src -w /src ghcr.io/onionui/miyoomini-toolchain:latest bash -ic '
+            echo "CROSS_COMPILE=[$CROSS_COMPILE]"; echo "SYSROOT=[$SYSROOT]"
+            which ${CROSS_COMPILE}gcc || { echo "cross gcc not found"; exit 2; }
+            ${CROSS_COMPILE}gcc --version | head -1
+            ls $SYSROOT/usr/include/SDL 2>/dev/null | head -3
+            ${CROSS_COMPILE}gcc -O3 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -Wall -DUSE_SDL1 -DROTATE180 src/main.c -o pokerqueen -lSDL -lm
+            file pokerqueen || true'
+      - name: Package for Onion
+        run: |
+          d=pkg/App/PokerQueen
+          mkdir -p $d
+          cp pokerqueen $d/ && cp -r assets $d/ && cp packaging/* $d/
+          chmod +x $d/pokerqueen $d/launch.sh
+          # sanity check: every file config.json points to must be in the app folder
+          for f in $(python3 -c "import json;c=json.load(open('$d/config.json'));print(c['icon'],c['iconsel'],c['launch'])"); do
+            test -f $d/$f || { echo "MISSING $f"; exit 3; }
+          done
+          # every picture the game loads must be in the package
+          for f in $(grep -o 'assets/[A-Za-z0-9_-]*\.png' src/main.c | sort -u); do
+            test -f $d/$f || { echo "MISSING $f"; exit 4; }
+          done
+          # every sound the game loads must be in the package
+          for f in $(grep -o 'assets/[A-Za-z0-9_-]*\.wav' src/main.c | sort -u); do
+            test -f $d/$f || { echo "MISSING $f"; exit 5; }
+          done
+          # v7.9 (v9.5: items.txt, names.txt): the editable text files and their guide travel with the game
+          for f in lines.txt talk.txt items.txt names.txt TEXT_GUIDE.txt; do
+            test -f $d/$f || { echo "MISSING $f"; exit 6; }
+          done
+          echo "config.json, assets and text files OK"; ls -l $d
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pokerqueen-onion
+          path: pkg
