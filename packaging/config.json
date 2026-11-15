@@ -1,7 +1,0 @@
-{
-  "label": "Poker Mini",
-  "icon": "icon.png",
-  "iconsel": "icon_sel.png",
-  "launch": "launch.sh",
-  "description": "Heads-up hold'em Poker"
-}
