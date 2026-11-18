@@ -1,0 +1,4 @@
+# POKER MINI - build.txt: the small white label at the bottom left of the title screen.
+# Put the text you want on the first line below (letters, numbers and . - : / + ! ? ' , only; 30 characters at most).
+# Lines starting with # are ignored. Delete this file to get the default back. Empty = no label.
+BUILD 0.1 BETA
