@@ -1,0 +1,263 @@
+POKER MINI - HOW TO CHANGE AND ADD TEXT (lines.txt, talk.txt, items.txt, names.txt)       v9.5
+=====================================================================
+
+The game reads four plain text files that sit in the same folder as the game (next to pokerqueen.cfg):
+
+   lines.txt   story scenes, her table lines, her door greetings, walking messages, objectives, gift scenes
+   talk.txt    the CHAT and TEASE exchanges in her room
+
+You do not need to rebuild the game. Edit the file, copy it to the SD card, start the game.
+If a file is missing, the game writes it by itself on the next start (a copy of the built-in text), so you always have a template.
+Delete a file to go back to the built-in text of that file.
+
+THE SAFETY NET
+- The built-in text is always the fallback. A line or scene the game refuses is skipped and the built-in one is used.
+- Every refusal is written to text_log.txt (file, line number, section, reason). No problems = no text_log.txt.
+- When something was refused, Options (title screen) shows "TEXT FILES: n PROBLEMS (SEE TEXT_LOG.TXT)".
+- The game reads the files once, when it starts. After editing, quit and start the game again.
+
+
+1. THE BASICS
+-------------
+   # a comment             a line starting with # is ignored (use it for notes)
+   [L_START]               a SECTION header: the name of the thing you change (the dump files contain all of them)
+   text                    the lines under a header belong to it, until the next header
+   (blank lines are ignored, except between lead-ins and chat exchanges, see below)
+
+- Use Notepad or any plain text editor. Save as plain text (UTF-8 or ANSI both work). Do not use Word.
+- Section names are not case sensitive. Do not rename them: a new name does nothing ("unknown section").
+- Characters: letters, digits and  . , ! ? ' " - : ; ( ) $ & + = / * < > @ #
+  The game font cannot draw accents or [ ] { } ~ ^ _ ` | (the | sign is only used in table lines).
+  Curly quotes, long dashes and the ... sign from Word/phones are converted automatically.
+- Upper or lower case does not matter: the game shows capitals.
+- A text that is too big for its box is refused (the limits are written above every section in the file).
+  The usual dialogue page: 3 lines of 46 characters (about 130 characters including spaces). The game wraps words by itself.
+- Never type % unless the original text has %d: the game puts a number there. Keep the same number of %d.
+
+
+2. HOW TO ADD A NEW LINE  (a "pool": the game picks one at random)
+------------------------------------------------------------------
+Most sections are pools: a list of lines where the game picks one at random (never the same one twice in a row where it matters).
+You can add, delete and change lines freely. Just keep at least one line.
+
+   [G_NORMAL]                                  her greeting at her door before you ever played
+   Oh, it's you. Come to lose again?
+   Back already? Persistent. I'll give you that.
+   Knock, knock, knock. Do you ever stop?
+   I was just about to call security.          <- NEW LINE: simply write it under the others
+
+Table lines (the [L_...] sections: L_START, L_HAND, L_SHEWIN ...) are shown in the small box at the table:
+two lines of at most 18 characters, split with the | sign:
+
+   [L_START]
+   LET'S SEE WHAT|YOU'VE GOT.
+   TRY NOT TO CRY|THIS TIME.                   <- NEW: 2 lines of 18 characters, split with |
+   WELCOME TO MY TABLE.                        <- one line only is fine too
+
+Some pools only use their FIRST line (the description above the section says so): G_REPEAT_OK, N_WIN, N_LOSE, N_TIE, S_UPFIRST.
+
+SINGLE TEXTS (one line only), for example  [W_STORM]  or  [O_DEBT]: replace the line. Exactly one line.
+Texts with %d (O_DEBT, O_DEBT_OK, O_RENT, W_RENT_TAKEN, W_RENT_TAKEN_BANK) must keep the same number of %d:
+
+   [O_DEBT]
+   Pay Sophia $%d for her shirt. Win it at the Exhibition.
+
+FIXED LISTS (the description says EXACTLY n lines): C_LEN, M_PAGE (the opening monologue: 2 pages), R_GIFT_OK, R_GIFT_HAND,
+R_GIFT_L2, R_GIFT_END, SN_CLOSER, SN_LONGER. Change the lines, keep the number of lines.
+
+
+3. HOW TO ADD A NEW BEAT  (a story scene)
+-----------------------------------------
+A scene is a list of BEATS. One beat = one dialogue page: who speaks, what picture is behind, whether her picture is shown, and the text.
+Scenes are the sections whose name starts with B_  (B_BUMP, B_BOSS, B_PROPOSE, B_PUMP ...). One line = one beat:
+
+   WHO  BACKGROUND  SPRITE | text
+
+   [B_PROPOSE]
+   NAR     HALL  0 | I knock on her door with the ring in my pocket.
+   SOPHIA  HALL  1 | What is it now, boy?
+   ME      HALL  1 | I have something for you.
+
+To ADD a beat: write a new line where you want it in the scene (copy a line next to it and change the text).
+To REMOVE a beat: delete its line. To CHANGE one: edit it. The beats play in the order of the lines.
+
+WHO is the speaker (it decides the name tag):
+   NAR      narration, no name tag (your thoughts and descriptions)
+   ME       you ("YOU")
+   SOPHIA   Sophia. Use it only after she has told you her name
+   AW       "ARROGANT WOMAN": what she is called before she gives her name
+   UNK      "???" an unknown voice
+   HER      her, with the right name tag for the moment: ARROGANT WOMAN before she gave her name, SOPHIA after
+
+BACKGROUND is the picture behind the beat:
+   LOBBY      the painted hotel lobby (the bump scene)
+   LOBBYMAP   the walking map of the lobby, with you standing in it (the arrival scene)
+   MYROOM     your room (painted)
+   HALL       the corridor in front of her door
+   BDOOR      her bedroom door in your living room
+   ROM        inside her bedroom
+   LIVING     her living room
+   TABLE      the room with the poker table
+   EVENT      the entrance of the Event Center
+   EXHIB      the Exhibition hall
+   RAIN       the rain on the windows
+   SLEEP      her sleeping           CLOSE / LONG   the closer / longer pictures of her sleeping
+   TORSO      the close-up
+   PUMP       the peek picture
+   BOTTLE                      (v12.3) Sophia handing you the bottles after ASK FOR MILK once she has the Mommy Milk Injection: assets/sc_bottle_d8.png, _yoga, _top, _cow (752x560)
+   IHUG                        (v13.11) mama mode, page 4, INTIMATE HUG: Sophia and you lying on her bed, you hugging her: assets/sc_ihug_d8.png, _yoga, _top, _cow (752x560)
+   BFEED                       (v13.11) mama mode, page 4, BOTTLE FEEDING: Sophia feeding you the bottle: assets/sc_bfeed_d8.png, _yoga, _top, _cow (752x560). The hand-over before it uses the BOTTLE pictures. These are PLACEHOLDERS: replace the files with the real art
+   HUG / KISS / SLEEPT / FEED   the page-4 scenes (v8.6): the file is picked by the outfit: assets/sc_hug_d8.png or sc_hug_yoga.png, and the same for kiss, sleep, feed (752x560)
+   SROOM      no picture (plain dark colour)
+When the background changes from one beat to the next, the game fades to the new picture.
+
+SPRITE says which picture of HER is shown on the beat:
+   0   nobody (narration, or she is not there yet)
+   1   her normal picture (it changes with the story by itself: normal, day-6, cover after day 8; once married: her uncovered day-8 / yoga picture,
+       and her covering picture (her_cover / her_cover_yoga) in the beats where she covers her chest, e.g. the start of BREASTFEED)
+   2   the "get out" picture (used after a match, when she sends you out)
+   3   her night picture
+   4   the boss picture (the 5000 table)
+   5   she hides behind her bedroom door (v8.7): assets/her_hide_d8.png or her_hide_yoga.png by her outfit
+Her picture fades in and out when the number changes.
+
+SHORT FORM: BACKGROUND and SPRITE may be left out. The beat then keeps the ones of the beat BEFORE it:
+
+   NAR     HALL  0 | I wait in the corridor.
+   SOPHIA  HALL  1 | You came back.
+   ME              | I never left.            (same as   ME HALL 1 | ...  because the beat before was HALL 1)
+   NAR     HALL  0 | She says nothing.          (narration: write the sprite 0 so her picture goes away)
+
+Write all three when the picture changes. Writing all three on every beat is always safe.
+
+TIPS FOR A NEW BEAT
+- Copy a line next to it, change the WHO and the text. That keeps the right background and sprite.
+- Until she tells you her name in the story, use AW (not SOPHIA) and do not write "Sophia" in the text.
+- A scene is only used if EVERY beat in it is fine. One bad beat = the whole scene stays as it was (it is in text_log.txt).
+- At most 60 beats in a scene. Each beat text: 3 lines of 46 characters.
+
+SCENES THE GAME FILLS IN ITSELF  ("(auto)")
+In a few scenes the game writes some lines itself (it depends on how you played: she answers a win differently from a loss ...).
+Those beats are shown in the file as  (auto)  and they must stay as they are:
+   WHO, BACKGROUND and SPRITE of an (auto) beat can be changed, but its text must stay  (auto).
+   B_REPEAT   first 2 beats fixed (the knock, her greeting). Beats after them (her rules) can be added or removed.
+   B_NAMED    first beat fixed;    B_LEAVE  first beat fixed;    B_GREET and B_DAILY  first 2 fixed;    B_COMMENT  first beat fixed.
+   Beats AFTER the fixed ones can be added or removed freely.
+   FIXED SCENES (keep exactly the same number of beats, you can only change the text): B_GIFT (4), B_MILK2 (8), B_AFTER (2).
+   B_PROPOSE: the LAST beat is her question "live with me?" - the YES / NOT NOW panel appears after the last beat.
+   B_PUMPB and B_BOTTLEB: the LAST beat is the closing line. If you peeked, B_SCOLD is played just before it.
+
+LEAD-INS  [B_LEAD]
+Before every bottle scene one lead-in plays, picked at random. A lead-in has EXACTLY 4 beats; lead-ins are separated by a BLANK LINE.
+You can add whole lead-ins (a blank line, then 4 beats) or remove lead-ins (at least one must stay).
+
+
+4. talk.txt  - CHAT AND TEASE
+-----------------------------
+Every exchange is: what you say (>), her answer (<), and optionally her second line (<).  A blank line ends the exchange.
+
+   [C_POKER]
+   > What's the biggest pot you ever won?
+   < Enough to buy this whole floor, boy.
+   < ...Don't ask me for a loan.            (second line, optional)
+
+   > Teach me one thing about poker.        <- NEW exchange: a blank line before it, then > and <
+   < Fold more often. Starting with this conversation.
+
+Add as many exchanges as you like to a topic. The TOPICS are fixed:
+   chat:  C_POKER C_WEATHER C_HER C_FOOD C_HALL C_HOME C_YOU C_FUTURE C_FUN C_MOOD
+   tease: T_LOOKS T_SHIRT T_CHEST T_BODY T_MILK T_TASTE   (every tease ends with her throwing you out)
+The pools around them are in the same file: C_FAIL (a chat that goes badly), R_MORE (her line when the chat is over), T_KICK and T_OUT
+(the end of every tease), R_KICKED (her greeting after she threw you out). They are one line per entry like every pool.
+Each text: 3 lines of 46 characters. An exchange needs a > line and at least one < line, otherwise it is skipped.
+
+
+5b. ITEMS.TXT  (v9.5): NAMES AND INFO OF THE ITEMS
+--------------------------------------------------
+items.txt holds the text of every item: the online store (ITEMS and BLACK MARKET tabs), the fridge and the lobby vending machine. One block per item:
+
+   [FLOWER]
+   NAME = FLOWER                   the item's name                                  (23 characters at most)
+   INFO = GIFT: +10% ROMANCE       the small line under the price in the store      (35 characters)
+   DESC = A pill said to ...       the info page that opens with Y                  (5 lines of 28 characters, about 140 characters)
+   GIVE = FLOWER                   its name on her give page                        (20 characters)
+   BOUGHT = BOUGHT A FLOWER        the note after you buy it                        (36 characters)
+
+- Every field can be left out: the built-in text is used. Only the [KEY] names are fixed (FLOWER, MONEY_STACK, BREAST_ENHANCEMENT_PILL, RUBY_RING, BREAST_PUMP,
+  MILK_INFO moved here: SOPHIA_BREAST_MILK has DESC, the info page of the milk in the fridge; also MILK_INDUCER_PILL, BODY_LOTION, PINK_CARD_DECK, YOGA_OUTFIT, DESIGNER_TOP, COW_PRINT_OUTFIT,
+  GOLD_BAR, DIAMOND_RING, SUPER_MILK_DRUG, SODA, ENERGY_DRINK). The order of the blocks does not matter.
+- An item that has no info page yet can get one: add a DESC line, and Y opens it in the store.
+- Not every item has every field (the ruby ring and the diamond ring are not on her give page, so no GIVE; the soda has only NAME and BOUGHT).
+- The numbers are NOT in the file. Prices, romance values and days are game rules. If you write "+50%" in an INFO, only the text changes.
+- The lobby vending machine picture has its own painted text ("SODA DRINK $ 1"): that part cannot be changed. The names in the fridge and in the confirmation can.
+- % is allowed here (it is only text). Anything too long or with a character the font cannot draw is skipped and written to text_log.txt.
+- You cannot add a NEW item from the file: a new item needs code (and a picture).
+
+5c. NAMES.TXT AND MAMA MODE  (v9.5, v9.7)
+-----------------------------------
+Once you are married, her menu shows  L1 PAGE n/4 R1 R2 NAME. R2 opens a small on-screen keyboard (D-pad moves, A types, B deletes, X space, Y or the OK key confirms).
+Type a name and press OK:
+   MAMA or MAMA SOPHIA   (v9.7) she refuses the name, but the mode still starts: MAMA MODE. She never accepts it: every mama line is reluctant (she calls you husband, never baby),
+                         with her own greetings, chat, tease, hug, kiss, sleep and night-knock dialogue, and ONLY in mama mode page 4 has the BREASTFEED row
+                         (it is gone again in SOPHIA mode). She sometimes flatly refuses BREASTFEED (R_FEED_NO_MM, about one time in three; nothing is used up, ask again later).
+                         She remembers your last mama-mode interaction today and tomorrow: her greeting at the door and in the living room comes from the R_MEM_<KIND>_T_MM
+                         (earlier today) or R_MEM_<KIND>_Y_MM (yesterday) sections; KIND = CALL, CHAT, TEASE, FEED, FEEDNO, HUG, KISS, SLEEP. After a tease the old R_KICKED_MM comes first.
+                         The free match at home in mama mode has its own table lines (the L_..._MM sections).
+   SOPHIA                back to her usual self (she calls you husband after the wedding, boy before it).
+   anything else         nothing happens (a note says she does not answer to it).
+The setting is saved with the game and stays until you type another name. The wedding always starts as SOPHIA.
+names.txt lists the names (upper or lower case and extra spaces do not matter, letters A-Z and spaces only, 16 characters at most):
+   [MAMA]     the names that switch mama mode on (built in: MAMA, MAMA SOPHIA). Add your own, one per line.
+   [SOPHIA]   the names that switch it off. SOPHIA itself always works, even if you delete it.
+A [MAMA] list in the file replaces the built-in names, so keep the ones you want. The mama dialogue is in lines.txt and talk.txt, in the sections ending
+with _MM (R_GREET_MM, B_FEED_MM, T_LOOKS_MM, C_MAMA ...), plus B_CALLMAMA and B_CALLBACK (the scenes when you change the name) and R_MORE_M, T_KICK_M
+(married, SOPHIA mode). They follow the same rules as every other section.
+
+5d. MAMA-MODE OPENERS  (v10.4)
+------------------------------
+In mama mode the first two beats of these scenes are an OPENER, picked at random (never the same one twice in a row): YOUR line first (it has "Mama" in it), then HER reaction,
+which starts with her reaction to the name ("Don't call me that!", "M-mama?!" ...) and goes on from there. Each opener is a PAIR of beats: a  ME  beat, then a  SOPHIA  beat.
+   B_OPEN_FEED_MM        BREASTFEED at her door and in her bedroom   (replaces beats 1-2 of B_FEED_MM)
+   B_OPEN_FEED_MM_LR     BREASTFEED in the living room               (replaces beats 1-2 of B_FEED_MM_LR; her answer has the Here?! in it, so no separate Here?! beat)
+   B_OPEN_ASK_MM_LR      ASK FOR MILK / PUMP MILK in the living room (plays before the lead-in; her answer has the Here?! in it)
+   B_OPEN_PILL_MM_LR     MILK PILL in the living room               (2 beats in front of the gift scene; also used when the pill fills the gauge and the pump scene follows)
+   B_OPEN_SUPER_MM_LR    SUPER DRUG in the living room              (2 beats in front of the gift scene)
+To ADD an opener: write two new lines, one  ME  line and one  SOPHIA  line, one after the other (copy a pair and change the text). To REMOVE one: delete both lines.
+Keep ME and SOPHIA alternating, an even number of lines, and at least one pair. Each line: 3 lines of 46 characters. If a pool has no whole pair, the old behaviour is used
+(the "Here?!" line, or beats 1-2 of the scene). Husband mode (SOPHIA) does not use these pools. At her door / in her bedroom ASK, PUMP and the gifts have no mama opener.
+
+5d. THE OUTFIT EXCHANGES (v11.2)
+CHANGE OUTFIT into the yoga outfit, the designer top or the cow print outfit plays a short exchange before she changes. Six scene pools in lines.txt:
+   B_WEAR_YOGA, B_WEAR_TOP, B_WEAR_COW           husband mode
+   B_WEAR_YOGA_MM, B_WEAR_TOP_MM, B_WEAR_COW_MM  mama mode (you say Mama, she rejects the name first)
+Each pool is GROUPS OF 3 beats: your request (ME), her refusal (SOPHIA), her grudging give-in (SOPHIA). One group is picked at random (never the same twice in a row).
+To ADD a group: write three new lines in that order. To REMOVE one: delete all three. Keep the number of lines a multiple of 3 (leftover lines are ignored); a pool with no whole group
+falls back to the old instant change. Each line: 3 lines of 46 characters. The outfit changes when the exchange ends; her last word is R_OUTFIT_YOGA / R_OUTFIT_TOP / R_OUTFIT_COW (and _MM).
+The cow print gift scene after she has taken the beauty pill uses GO_COW_MILK / GL_COW_MILK / GE_COW_MILK instead of GO_COW / GL_COW / GE_COW.
+
+5. WHEN SOMETHING DOES NOT SHOW UP
+----------------------------------
+Open text_log.txt (same folder). Each line says  file, line number, [section]  and why it was refused. The usual reasons:
+   too long for the box          shorten it (the limits are written above every section)
+   character cannot be drawn     an accent or a [ ] { } ~ ^ _ ` | character: remove it
+   unknown section name          the [NAME] has a typo, or the item cannot be changed from the file
+   section belongs in talk.txt   you put a talk.txt section into lines.txt (or the other way round)
+   needs exactly n beats/lines   a fixed scene or list: keep the number the dump file has
+   beat n must stay (auto)       you wrote text on a line the game fills in
+   a % may only be written as %d  you typed a % sign
+Fix the line, delete text_log.txt if you like, start the game again.
+To start over: delete lines.txt / talk.txt / items.txt / names.txt and start the game: new copies are written.
+When you update the game, keep your own lines.txt / talk.txt (the new game still reads them; new sections that are not in your
+old file simply use the built-in text; copy them from a fresh file if you want to edit them).
+
+
+6. FOR THE PERSON WHO BUILDS THE GAME (src/)
+--------------------------------------------
+- src/lines.h and src/talk.h still hold the built-in text. Pools are declared  POOL(NAME, "a", "b")  and scenes  SCENE(NAME, {...}, ...);
+  in the code use NAME[i] and NAME_N (never NL(NAME): it is refused at compile time).
+- src/extreg.h is the list of every item the files can change. A NEW pool, scene, single text or list is only editable from the
+  files after one line is added there (copy the line of a similar item: name, kind, size class, pointers, lock/tail, description).
+  Scenes with beats the code fills in by position need  lock = number of leading fixed beats ; tail = 1 (free tail) or 0 (fixed count).
+- src/extitems.h is the loader of items.txt and names.txt (the list of items is IT_REG there; a new item field needs a line in it). src/extlines.h is the loader of lines.txt / talk.txt (no SDL). tests/test_logic.c has its tests (PQ_ONLY_EXT=1 ./test_logic runs only the dialogue and text-file tests).
+- tests/dump_text.c rewrites the template files:  gcc tests/dump_text.c -o dump_text && ./dump_text packaging
+  Run it after you change the built-in text so that packaging/lines.txt, talk.txt, items.txt and names.txt stay in step.
