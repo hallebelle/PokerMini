@@ -1,0 +1,133 @@
+# POKER MINI - items.txt: the names and info texts of the items (online store, fridge, her give page).
+# Edit with Notepad (plain text). Keep the name items.txt next to the game. The full guide is TEXT_GUIDE.txt. Delete this file to get a fresh copy.
+# [KEY] starts an item (do not rename the keys). Lines are  FIELD = text  and may be left out: the built-in text is used then.
+#   NAME   the item's name (23 characters at most)          INFO    the small line under the price in the store (35 characters)
+#   DESC   the info page that opens with Y (5 lines of 28 characters, about 140 characters)   GIVE   its name on her give page (20 characters)
+#   BOUGHT the note after you buy it (36 characters)
+# Prices, romance values and days are NOT here: they are part of the game rules. If you change a number in a text, only the text changes.
+# Anything the game refuses is skipped and written to text_log.txt; the built-in text is used instead. Plain characters only: A-Z 0-9 and . , ! ? ' " - : ; ( ) $ & + = / * < > @ # %
+
+# online store, ITEMS tab
+[FLOWER]
+NAME = FLOWER
+INFO = GIFT: +10% ROMANCE
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = FLOWER
+BOUGHT = BOUGHT A FLOWER
+
+# online store, ITEMS tab
+[MONEY_STACK]
+NAME = MONEY STACK
+INFO = GIFT: +20% ROMANCE
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = MONEY STACK
+BOUGHT = BOUGHT A MONEY STACK
+
+# online store, BLACK MARKET tab (her give page calls it PILL by default)
+[BREAST_ENHANCEMENT_PILL]
+NAME = BREAST ENHANCEMENT PILL
+INFO = GIFT: ONE TIME ONLY
+DESC = A pill said to make a woman's body grow fuller. It needs about a week before the change shows. Give it to her one time only.
+GIVE = PILL
+BOUGHT = BOUGHT THE PILL
+
+# online store, BLACK MARKET tab (the proposal ring)
+[RUBY_RING]
+NAME = RUBY RING
+INFO = PROPOSAL RING: ONE TIME ONLY
+DESC = The mysterious, beautiful ring that can charm people and make them fall for whoever gives it.
+BOUGHT = BOUGHT THE RUBY RING
+
+# online store, ITEMS tab (after the day-8 scene)
+[BREAST_PUMP]
+NAME = BREAST PUMP
+INFO = GIVE IT TO HER. IT CAN BREAK
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = PUMP
+BOUGHT = BOUGHT THE BREAST PUMP
+
+# online store, BLACK MARKET tab (after the day-8 scene)
+[MILK_INDUCER_PILL]
+NAME = MILK INDUCER PILL
+INFO = GIFT: +25% OF THE BOTTLE GAUGE
+DESC = A pill that makes the body produce milk. Every pill fills the bottle gauge by 25%. Four pills fill a bottle.
+GIVE = MILK PILL
+BOUGHT = BOUGHT A MILK INDUCER PILL
+
+# online store, ITEMS tab
+[BODY_LOTION]
+NAME = BODY LOTION
+INFO = GIFT: +12% ROMANCE
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = BODY LOTION
+BOUGHT = BOUGHT BODY LOTION
+
+# online store, ITEMS tab
+[PINK_CARD_DECK]
+NAME = PINK CARD DECK
+INFO = GIFT: +15% ROMANCE
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = PINK CARD
+BOUGHT = BOUGHT A PINK CARD DECK
+
+# online store, ITEMS tab
+[YOGA_OUTFIT]
+NAME = YOGA OUTFIT
+INFO = GIFT: UNLOCKS HER OUTFIT
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = YOGA OUTFIT
+BOUGHT = BOUGHT A YOGA OUTFIT
+
+# online store, ITEMS tab
+[GOLD_BAR]
+NAME = GOLD BAR
+INFO = GIFT: +50% ROMANCE
+# DESC = (this item has no info page yet: write a DESC line to add one)
+GIVE = GOLD BAR
+BOUGHT = BOUGHT A GOLD BAR
+
+# online store, ITEMS tab (the wedding ring)
+[DIAMOND_RING]
+NAME = DIAMOND RING
+INFO = FOR A WEDDING. NO USE YET
+DESC = A dazzling diamond ring, made for a wedding with Sophia. After the day-8 scene, give it to her from the gift page to marry her.
+BOUGHT = BOUGHT THE DIAMOND RING
+
+# online store, ITEMS tab (a gift: a third outfit for after the wedding)
+[DESIGNER_TOP]
+NAME = DESIGNER TOP
+INFO = GIFT: UNLOCKS HER OUTFIT
+DESC = Contours to the wearer's body, emphasizing her shape and chest. Slightly more expansive than the yoga outfit.
+GIVE = DESIGNER TOP
+BOUGHT = BOUGHT A DESIGNER TOP
+
+# online store, ITEMS tab (a gift: a fourth outfit for after the wedding)
+[COW_PRINT_OUTFIT]
+NAME = COW PRINT OUTFIT
+INFO = GIFT: UNLOCKS HER OUTFIT
+DESC = A thin and comfy outfit that contours the wearer's body shape, with a chest cutout.
+GIVE = COW PRINT OUTFIT
+BOUGHT = BOUGHT A COW PRINT OUTFIT
+
+# online store, BLACK MARKET tab (after the day-8 scene): permanent milk, no gauge, one milk a day
+[MOMMY_MILK_INJECTION]
+NAME = MOMMY MILK INJECTION
+INFO = PERMANENT MILK. NO FULL GAUGE
+DESC = This experimental injection will make a woman produce milk permanently. No full gauge needed. One milk a day.
+GIVE = MOMMY INJECTION
+BOUGHT = BOUGHT THE MOMMY MILK INJECTION
+
+# fridge and lobby vending machine (the machine picture has its own painted text)
+[SODA]
+NAME = SODA
+BOUGHT = BOUGHT A SODA
+
+# fridge and lobby vending machine (the machine picture has its own painted text)
+[ENERGY_DRINK]
+NAME = ENERGY DRINK
+BOUGHT = BOUGHT AN ENERGY DRINK
+
+# fridge (the info page opens with Y on its row)
+[SOPHIA_BREAST_MILK]
+NAME = SOPHIA BREAST MILK
+DESC = This sweet milk is from Sophia's breast. Because of the special medicine, the milk never spoils and stays fresh.
