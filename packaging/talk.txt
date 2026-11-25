@@ -1,0 +1,1381 @@
+# POKER MINI - talk.txt: the CHAT and TEASE exchanges in her room (and what she says around them).
+# Edit with Notepad (plain text). Keep the name talk.txt next to the game. The full guide is TEXT_GUIDE.txt.
+# An exchange:   > what you say      < her answer      < her second line (optional)      then a blank line.
+# You can add as many exchanges to a topic as you like. The topics themselves (poker, weather, ...) are fixed.
+# Anything the game refuses is skipped and written to text_log.txt; the built-in text is used instead. Delete this file to get a fresh copy.
+
+# CHAT topic: poker
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_POKER]
+> Teach me one thing about reading people at the table.
+< Watch the hands. Liars touch their faces, nervous people touch their chips. You touch both. Constantly.
+< ...It's adorable how bad you are.
+
+> What's the biggest pot you ever won?
+< Enough to buy this whole floor, boy. I won't say the number. You'd faint.
+
+> Do you ever bluff yourself into believing your own hand?
+< Never. A queen knows exactly what she holds. You think a pair of fours is a miracle.
+
+> What's the worst beat you ever took?
+< ...Don't. Pocket aces, and some idiot caught a two-outer on the river. I still remember his smile.
+< I let him leave with his teeth, so he should be grateful.
+
+> Is poker skill or luck?
+< Luck decides one hand. Skill decides a thousand. That's why I win and you pray.
+
+> Do you play online too?
+< A screen can't see a face. Where's the fun in beating someone who can't blush?
+
+> What was your first game like?
+< Pennies and a deck missing the jack of clubs. I won everything. The grown-ups cried.
+< I've been unbeatable ever since. Mostly.
+
+> Would you ever let me win on purpose?
+< Hmph. A queen does not gift victories.
+< ...But if you play well, maybe I'll lose by accident.
+
+> Which starting hand is your favorite?
+< Queens, naturally. Pocket queens look at the whole table and say: kneel.
+
+> Any advice before our next match?
+< Fold more. Talk less. And stop looking at me when you should be looking at your cards.
+
+> How do you stay so calm when you're losing?
+< I don't lose. And if it ever happens, I smile, so everyone is too scared to enjoy it.
+
+> Have you ever folded a winning hand?
+< Once. I read him perfectly and I was still wrong. It's the only time I enjoyed being wrong.
+
+# CHAT topic: weather
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_WEATHER]
+> Still raining out there. Think it will ever stop?
+< Storms last as long as they want. Like me.
+
+> Does thunder bother you?
+< Of course not! ...I only flinch because it's loud. That's different.
+< Don't smirk. Don't you dare smirk.
+
+> I like the sound of rain on the window.
+< It's the only quiet thing in this building. Besides me, when I'm winning.
+
+> Do you prefer sun or rain?
+< Sun. I look better in sunlight.
+< That wasn't a hint. Don't write it down.
+
+> Think we'll be stuck inside all week?
+< Probably. I'll have to put up with you all week. What a punishment.
+
+> Is it cold in your room? I can lend you a blanket.
+< I don't need anything from you. ...Is it a thick one?
+
+> What's your favorite season?
+< Winter. The cold keeps fools away and the cards crisp.
+< Autumn is acceptable. It's a good color on me.
+
+> Lightning just lit up the whole window.
+< ...I saw. Stand a little closer to the door. For the lightning. Not for me.
+
+> Do you miss going outside?
+< More than I miss losing. Which is to say, a lot.
+
+> The wind is shaking the glass again.
+< It's only wind. It's only wind. ...Check the lock for me. Just in case.
+
+# CHAT topic: about her
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_HER]
+> What's your favorite color?
+< Red. The color of a winning hand, and of your face when I stare at you.
+
+> Where did you grow up?
+< Somewhere with fewer fools and better food. That's all you get.
+
+> Do you have any family?
+< ...A few. They call too often and I answer too rarely.
+< Don't make that face. I'm not sad. I'm busy.
+
+> What do you do when you're not playing poker?
+< Rest. Read. Judge people from a distance. It's a full schedule.
+
+> Did you always want to be the Poker Queen?
+< I wanted to be undefeated. The crown came with it.
+
+> What's your biggest fear?
+< Hmph. Nothing frightens me. ...Except a hand going cold on me when I need it most.
+
+> What makes you happy?
+< A good hand. A quiet room. A cold drink.
+< ...And when you stop talking for five whole minutes.
+
+> What was the last thing that made you laugh?
+< Your face when I took your last chip. A masterpiece.
+
+> Do you have any hobbies?
+< Collecting winnings. Also, sewing. ...Don't laugh! My stitches are perfect.
+
+> What's your best quality?
+< Modesty, obviously. Next question.
+
+> Are you a morning person?
+< I'm a person who wins at any hour. Mornings are just later losses for you.
+
+> What's your biggest secret?
+< If I told you it wouldn't be a secret, would it? Poker 101, boy.
+
+# CHAT topic: food
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FOOD]
+> Coffee or tea?
+< Coffee. Black. Like my patience when you take too long to bet.
+
+> What's your favorite food?
+< Anything sweet. ...Don't tell anyone. A queen must look like she eats only caviar.
+
+> I could buy you dessert from downstairs.
+< ...Chocolate. The dark kind. Not because you asked. Because I'm hungry.
+
+> Can you cook?
+< Of course I can cook. I just choose not to, so the world doesn't expect it of me.
+
+> Do you like spicy food?
+< I like anything that makes your eyes water. Spicy included.
+
+> Soda or energy drink?
+< Soda. Energy drinks taste like panic. You seem to love panic.
+
+> What did you have for breakfast?
+< None of your business. ...Toast. And jam. Two kinds. Satisfied?
+
+> Cake or pie?
+< Cake. With strawberries on top. A queen deserves a cherry.
+
+> Do you like ice cream?
+< Only the expensive kind. And only when nobody is watching me lick it.
+< ...I mean eat it. EAT it!
+
+> What would be your last meal?
+< A whole strawberry cake and a bottle of something old and red. Alone. Without you.
+< ...Fine. With you, at the far end of the table.
+
+# CHAT topic: the building
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_HALL]
+> Have you talked to the receptionist? She seems nice.
+< She seems underpaid. I tip generously and she still looks terrified. I wonder why.
+
+> Is the hall always this quiet?
+< It was, until a certain boy started stomping through it.
+
+> Do you miss your old room on the third floor?
+< It had a better view. And I didn't have to see your socks on the floor.
+
+> Do you think the rent is fair?
+< Don't talk to me about rent. I've bought whole condominiums that cost less than your debt to me.
+
+> Who else lives in this building, do you know?
+< Nobody worth knowing. Everyone is hiding from the storm. Or from me.
+
+> The elevator makes a strange noise, did you notice?
+< I notice everything. That noise is the building laughing at your poker.
+
+> The Event Center is quite fancy.
+< It's adequate. It would be better if I owned it.
+
+> I could rearrange the living room if you like.
+< Touch my side of the room and I will rearrange your teeth.
+
+> The lobby clerk waved at me today.
+< She waves at everyone. Don't let it go to your head. Your head is big enough.
+
+# CHAT topic: home life
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_HOME]
+> Did you sleep well last night?
+< Terribly. Someone was breathing too loudly through the wall.
+< ...Okay, maybe I slept fine. Don't let it go to your head.
+
+> Want to watch something together?
+< Nothing with explosions. Or romance. Or talking. ...Pick something quiet.
+
+> What should we do today?
+< Make me a coffee, find me a snack and be quiet about it.
+
+> Does the bed feel comfortable?
+< It's acceptable. Don't ask about my bed again. It sounds strange when you say it.
+
+> Is there anything you need from the store?
+< Chocolate. Cold tea. And a pillow that doesn't smell like you.
+< ...Kidding. The pillow is fine.
+
+> I'll do the dishes tonight.
+< Of course you will. ...Thank you. Don't make a thing of it.
+
+> What's your favorite spot in the room?
+< The window. I can look down on everyone, as is my nature.
+
+> You leave your door open sometimes. Is that okay?
+< It is NOT okay. It's... draft management. Close it softly next time.
+
+> Do you ever get lonely in there?
+< ...Maybe a little. At night the walls feel thin.
+< Forget I said that. Forget it immediately!
+
+# CHAT topic: about you
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_YOU]
+> I practiced poker all night for you.
+< Pathetic. And yet... it shows. Slightly. Carry on.
+
+> I'm trying my best to impress you.
+< Then try harder. ...I notice the effort. Just don't expect applause.
+
+> I got lucky coming to this building.
+< Lucky? You walked into me in the lobby. That's called a disaster.
+< ...A disaster with decent hands, I suppose.
+
+> Do you think I'm improving?
+< Your folds have improved. Your face still gives everything away.
+
+> Sometimes I wonder why you said yes to me.
+< A moment of weakness. Or pity. Don't ask again.
+< ...Or maybe I like a fool who keeps knocking on my door.
+
+> What do you think of me?
+< That you talk too much and look too long. And that you came back every time I told you to leave.
+
+> I'll work harder tomorrow.
+< Good. A queen has standards.
+
+> I'm glad you live here now.
+< Hmph. Say it quieter. The walls have ears, and they aren't on your side.
+< ...But I'm not leaving. So there's that.
+
+> Do you think I'm funny?
+< You're funny the way a flat tire is funny. Not at all, but memorable.
+
+# CHAT topic: the future
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FUTURE]
+> What will you do when the storm ends?
+< Walk outside and ruin someone's evening, probably.
+
+> Where would you travel, if you could?
+< Somewhere with a casino and a view of the water. I'd own the table by midnight.
+
+> What's your dream?
+< A final table, every card turned, everyone silent. ...And a bit of peace afterward.
+
+> Will you play in a big tournament again?
+< If the buy-in is worthy and the opponents aren't you, yes.
+
+> Would you ever retire from poker?
+< Retire? Never. A queen steps down only when the table is empty.
+
+> What do you want from me in the future?
+< Better poker. Less staring. And... stay. Don't make me say it twice.
+
+> Where do you see us in a year?
+< In a larger room. With you losing, naturally.
+< ...Still here. Probably.
+
+> Do you want a house someday?
+< With a big window and a lock on one door. Mine.
+
+# CHAT topic: fun
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FUN]
+> Do you like music?
+< Slow, low songs. The kind that make a room feel expensive.
+
+> Do you have a favorite book?
+< A thick one, about someone clever who defeats fools. I see myself in it.
+
+> Do you like movies?
+< Only the ones where the smartest person wins. They are rare, so I watch rarely.
+
+> Ever had a pet?
+< A cat. She hated everyone but me. A woman of taste.
+
+> What's your favorite game besides poker?
+< Chess. But I won't embarrass you. Poker is enough.
+
+> Do you like dancing?
+< ...Only when nobody is watching. So no. Never.
+
+> Can you sing?
+< Beautifully. You'll never hear it. Ask again in a decade.
+
+> What do you do when you're bored?
+< I shuffle. Over and over. It's soothing. Don't join in, you'll drop the deck.
+
+> Do you play any instrument?
+< Piano. Badly. Don't ask me to play for you.
+< ...Maybe someday.
+
+# CHAT topic: her mood
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_MOOD]
+> How are you feeling today?
+< Annoyed, but manageable. You're helping, strangely.
+
+> You seem tired.
+< I'm fine. A queen never shows it.
+< ...Okay. A little. Just a little. Sit down, then.
+
+> You look nice today.
+< I always look nice. ...But thank you. Once. Don't ask for a repeat.
+
+> I'm glad I met you.
+< Hmph. Luck can be a loyal servant.
+< ...I'm glad too. Don't tell anyone.
+
+> Do you trust me?
+< A little. About as much as a pair of fives.
+< ...Maybe a pair of kings.
+
+> What makes you feel safe?
+< Locked doors. A dim lamp. And someone clumsy enough to knock before he enters.
+
+> Anything bothering you?
+< Just the usual. Boredom, rain, and a boy who asks too many questions.
+< ...Thank you for asking.
+
+> Do you want me to stay for a while?
+< ...Sit. But don't talk. Just sit.
+< That's all. Quiet company. Don't ruin it.
+
+# CHAT that goes badly: her snappy answer (no romance)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FAIL]
+Boring. Do you practice being this dull, boy?
+I'm not in the mood. Try me again later.
+Hmph. Is that really the best you've got?
+You talk too much and say too little.
+Don't bother me with nonsense. I'm busy.
+Ugh. Not now. I'm thinking about something.
+Say that again and I'll pretend I didn't hear it the first time.
+Did anyone ever teach you how to talk to a woman? No? It shows.
+Spare me. I've heard better from the rain on the window.
+Stop. You're ruining my mood with that.
+I have no interest. Move on.
+If you can't say anything clever, say nothing.
+That was dull. Painfully dull.
+Were you always this awkward, or is today special?
+Not now. I'm busy staring at the wall. It's more interesting than you.
+I'm tired of your chatter. Come back with something good.
+You just lost points. I keep a mental scoreboard.
+That was a bad bluff. Even for you.
+Don't speak to me. ...Not for a while.
+Hmph. Wrong time, wrong words, wrong boy.
+
+# CHAT: her line when the chat is over and the menu comes back
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_MORE]
+Anything else? Hurry up.
+Hmph. Are you done talking?
+Well? Make your move, boy.
+I'm still here. Unfortunately.
+Ask me something else. Or leave.
+...What now?
+Your turn to say something, boy.
+You never run out of words, do you?
+
+# TEASE topic: her looks. Every tease ends with her throwing you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_LOOKS]
+> You're the most beautiful woman I've ever seen.
+< Obviously. It's rude of you to say such an obvious thing out loud.
+< ...Keep going. I mean, stop. Don't stop. STOP.
+
+> Your eyes drive me crazy when you glare at me.
+< Then stop looking into them. Look at the cards. Look at the floor. Look away!
+
+> Do you know how hard it is to focus on poker with you sitting there?
+< That is the entire plan. You only just noticed? You're slower than I thought.
+
+> Your hair smells amazing. What is it?
+< A very expensive secret. And no, you can't smell it again!
+< ...Fine, one more. But only because I allow it.
+
+> I could stare at your face all night.
+< Then you'll be staring at a closed door soon, boy.
+< ...But, hmph, I won't blame you.
+
+> When you smile, even the storm goes quiet.
+< Y-you idiot! Where did you read that, a greeting card?!
+< My smile is a weapon. Don't make me use it on you.
+
+> Those lips of yours look soft. I bet they are.
+< Don't guess about things that are none of your business! ...They are, however, perfectly well kept.
+
+> You look like a queen, but you blush like a girl.
+< I am NOT blushing! It's the heat! Obviously the heat!
+
+> I wonder what you look like when you wake up.
+< Terrifying. Ruinous. Stay away from my bedroom in the morning.
+< ...You'd probably like it, though. Idiot.
+
+> That red on your cheeks is adorable.
+< Say that once more and I'll make the red on YOUR cheek match it.
+
+> I'd lose every match if it meant sitting across from you.
+< Then lose, you fool. I accept.
+< ...It's embarrassing how pleased that makes me.
+
+> Come closer. I want to see your face properly.
+< Don't give me orders. ...Is this close enough? No? Greedy boy.
+
+> Your neck is so elegant. Do you know that?
+< Of course I know. Why do you think I never wear a scarf?
+< ...Don't look at it for so long. It's getting warm.
+
+> I'd happily get lost in those eyes.
+< Then you'll be lost forever, because I never give directions.
+
+# TEASE topic: her shirt. Every tease ends with her throwing you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_SHIRT]
+> That shirt looks really tight on you today.
+< It is NOT tight! It's a fit. A deliberate fit! You just aren't used to quality tailoring.
+
+> I think one of your buttons is about to give up.
+< Don't you dare look at my buttons! Look at my eyes! My eyes, boy!
+
+> Did your shirt shrink, or did something grow?
+< It's the pills and you know it! It's YOUR fault!
+< ...Stop looking so proud of yourself.
+
+> You should buy a bigger size. Though I won't complain if you don't.
+< I'm buying a bigger size tomorrow. And you aren't invited to see it.
+
+> That fabric is working very hard right now.
+< Shut up! It's stretchy. It's meant to be. It's DESIGNED to do this.
+< ...Why are we still talking about my shirt?!
+
+> Nice cleavage. Was that on purpose?
+< No! Yes! No! It's a V-neck, and that's all it is! A neckline!
+< Stop. Staring. Immediately.
+
+> The way it clings to you is unfair to everyone else.
+< Everyone else? Who else is looking?! Tell me who, and I'll end them.
+< ...Only you? Hmph. Then you're excused.
+
+> I'll help if the buttons ever pop.
+< If they pop, you will be sent flying through that door with them.
+
+> Wear that shirt tomorrow too.
+< I don't take orders from you.
+< ...What time tomorrow? I mean, I'm not wearing it for you.
+
+> That shirt shows off everything you hide at the table.
+< I hide nothing! A queen has nothing to hide... and nothing to show you, either!
+
+> You pulled the hem down again. It's not going to cover more.
+< I know! It doesn't help! This shirt is betraying me!
+
+> You'd look good in anything. Or in less.
+< Say that again and I'll drop you into the storm myself!
+< ...Not that I'd mind an audience. Absolutely not!
+
+> There's a tiny gap between two buttons. I can see lace.
+< WHERE?! ...Don't look! Don't you DARE look!
+< I'm changing this shirt tonight. Burning it, actually.
+
+> That shirt is way too thin. I can almost see through it.
+< Almost?! There's nothing to see! ...Is there?! Tell me! No, don't!
+
+# TEASE topic: her chest. Every tease ends with her throwing you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_CHEST]
+> They've really grown since the pills, haven't they?
+< Stop talking about my chest like a scientist! ...Yes. They did. And they're heavy.
+< And it's your fault. Entirely.
+
+> How heavy are they?
+< Too heavy to carry and too soft to hide. Are you happy now?!
+
+> Do they ever get in the way when you play poker?
+< Constantly! I have to lean back just to see the cards. That's why I'm losing more lately.
+< ...Don't laugh. It's your fault!
+
+> I'd like to know what they feel like.
+< Absolutely not! Not a chance! Not now, not ever!
+< ...Don't look at me like I might say maybe. I'm not saying maybe!
+
+> They bounce a little when you laugh. It's mesmerizing.
+< I'm not laughing! I never laugh! You're hallucinating!
+< ...Look at my face. Not there. FACE!
+
+> Your chest looks so soft. I bet it feels like a pillow.
+< It is soft. It is also off limits. Both are facts, boy.
+
+> Which bra size are you now?
+< WHAT?! A gentleman doesn't ask that!
+< ...Bigger than before. That's all you get! Pervert!
+
+> Is it hard to sleep on your stomach now?
+< Impossible. I sleep on my side like a normal person, and I curse you every night.
+
+> They look even bigger when you cross your arms.
+< THEN STOP LOOKING AT THEM WHEN I CROSS MY ARMS!
+< Honestly. It's a defense, not a presentation!
+
+> I'd happily help support them. For comfort, of course.
+< I need no help! I have a hundred bras! ...Ninety are too small now.
+
+> Do they ache? I could massage them.
+< Excuse me?! Do you want your hands removed or just broken?
+< ...The ache is real, though. But no. Never. Hmph!
+
+> Honestly, they're the best thing in this room.
+< The best thing is my poker. The second best is my face. The... third is... Hmph. Shut up.
+
+> They're a good size. Perfect, actually.
+< Don't you dare grade me! ...What grade? Wait, don't answer that!
+
+> Can I rest my head on them? Just once.
+< Are you out of your mind?! That's a privilege reserved for... for...
+< ...Nobody. It's reserved for nobody. Yet.
+
+> Your chest heaves every time you get angry. It's hypnotic.
+< Then I'll stay calm and you'll stay blind. Deal? ...Why do I sound so out of breath?!
+
+> What happens if I hug you really tight?
+< Then you'd get crushed. Against my... NO. I mean, you'd get thrown. Over my shoulder!
+
+# TEASE topic: her body. Every tease ends with her throwing you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_BODY]
+> Since the pills you've changed everywhere, haven't you?
+< It isn't only my chest. Everything feels warmer and fuller. It's horrible.
+< ...Don't look at my hips either!
+
+> Your waist and your hips... the proportions are unreal.
+< Don't measure me with your eyes like a tailor!
+
+> You're glowing lately. Is it the pills?
+< The glow is called health. Not your doing.
+< ...A little your doing.
+
+> Your skin looks incredibly soft today.
+< Skincare. It costs a lot. Stop reaching toward it.
+
+> You smell sweet lately. Like warm milk.
+< I do NOT! Stop sniffing me! Don't lean in!
+< ...Do I really? Idiot, why does that bother me so much?
+
+> Do you feel different when you walk now?
+< Everything sways. Everything bounces. I hate it. ...And I hate that you noticed.
+
+> You've put on a little weight in all the right places.
+< How dare you?! ...In the right places, you said? Which places?
+< No! Don't answer! I'll kill you if you answer.
+
+> You were stretching earlier. I may have noticed.
+< You were WATCHING?! That was private! A private stretch!
+< ...How did it look? Never mind!
+
+> Your legs are distracting too, you know.
+< My legs are none of your business! ...Which one do you like more?
+< NO. Don't answer. Hmph.
+
+> Do you feel warm all the time now?
+< Always. As if my whole body is on fire. It's your fault, and don't smile.
+
+> You've gotten so curvy it's hard not to stare.
+< Then do it quickly and stop! A queen is not a statue in a gallery!
+
+> What would you wear if you could wear anything?
+< Something that doesn't threaten to tear. ...And maybe something red.
+< Forget I said that!
+
+> I can see you tugging at your clothes. They don't fit anymore.
+< Because of you! Everything is too small now! Every. Single. Thing!
+< ...I'll need new ones. You're paying.
+
+> You're blushing all the way down to your collar.
+< It's... not just there. ...Why did I say that?! Out of my sight!
+
+# TEASE topic: her milk (locked until the first bottle). Every tease ends with her throwing you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_MILK]
+> That bottle you gave me... it was still warm.
+< Don't say it like that! It's embarrassing enough that you have it!
+< ...Is it still warm when you drink it? Don't answer!
+
+> How does it feel when you use the pump?
+< Weird. Pulling and warm, and I hate all of it.
+< Why am I even telling you?!
+
+> Do you ever leak through your shirt?
+< That's... sometimes. When I'm careless. Or when you stare.
+< WHY ARE YOU SMILING?!
+
+> I'd love another bottle soon.
+< You act like I'm a vending machine! ...There's only so much. Ask nicely, and maybe.
+< No. Don't ask nicely. Hmph.
+
+> Is it uncomfortable when it builds up?
+< It's heavy. Tight. Aching. It's all your pills' fault, which I'll remind you of daily.
+
+> I never thought a bottle could be so special.
+< It's just milk! It's... mine, and that's all, and you hold it far too carefully!
+
+> Do you ever think about me drinking it?
+< Never! Not once! ...Don't ask a woman what she thinks about at night.
+
+> Want me to pour it for you next time?
+< I can pour it myself! Stop acting like a servant!
+< ...Not that I mind the thought.
+
+> How much did you pump this time?
+< I'm not keeping score like a dairy farmer!
+< ...A lot. It was a lot. Now go away!
+
+> You blushed when you handed it over.
+< Because it was warm! The bottle was warm!
+< ...And you were looking at me!
+
+> I want to keep your bottle forever.
+< It spoils, idiot. Drink it. ...And ask for another, if you're good.
+
+> Does it ever feel good when you pump?
+< WHAT KIND OF QUESTION IS THAT?! ...No comment. Absolutely no comment.
+< ...Okay, a tiny bit. NOW STOP.
+
+> Does it hurt if I wait too long for the next one?
+< A little. Then it gets worse. Then I get angry. At you.
+< So don't wait too long.
+
+> You're like a goddess of milk.
+< Don't give me strange titles! The Poker Queen is enough!
+< ...Though goddess has a nice sound. Quiet!
+
+> I could hold the bottle while you pump.
+< You'd see everything! Over my dead body! ...Or at least after I'm more used to this.
+
+# TEASE topic: milk taste (locked until the first bottle). Every tease ends with her throwing you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_TASTE]
+> Honestly, it tastes sweeter than I expected.
+< I did NOT need that review! ...Sweeter than what?!
+< Don't answer, you pervert!
+
+> Your milk tastes like honey and warm vanilla.
+< Stop describing it! Stop it! A queen is not a dessert menu!
+
+> Do you want to taste it yourself?
+< Absolutely not! ...Is it really that good? NO! Hmph!
+
+> It's creamy and smooth. I could drink it every day.
+< Then buy more pills, idiot. ...That's not an invitation. It's a business arrangement.
+
+> What do you think it tastes like?
+< I don't think about it! ...Sweet? Sugar? Warm cream? Why am I answering?!
+
+> It tastes like you. A little shy, a little sweet.
+< You've been drinking too much or too little. Get out of my head!
+< ...A little shy? Excuse me?!
+
+> I think it's the best thing I've ever tasted.
+< Idiot... idiot... idiot! Do you say that to the bakery, too?!
+< ...Fine. Thank you. Quietly.
+
+> It leaves a sweet aftertaste. I keep thinking about it.
+< Stop thinking about it! I mean it! Think about poker!
+< ...Do you think about me, too? Never mind!
+
+> Is it always that sweet, or did you eat something?
+< Dessert. Chocolate, strawberries. Now I'll feel awful about it.
+< ...Because I'll be thinking of you tasting it.
+
+> Can I ask for a second bottle just to compare?
+< Compare to what?! There's only one source, and she's right here, hating you!
+< ...A second bottle is possible. After the storm. Maybe.
+
+> I want to know how it tastes straight from the source.
+< FROM THE SOURCE?! Are you out of your mind?! That is... not allowed. Not ever.
+< ...Not yet.
+
+> I'll drink every drop and say thank you.
+< ...Idiot. Idiot. Drink slowly. I put effort into it.
+< No! I mean, the pump put in the effort!
+
+> It's warm and a little sweet, like a secret.
+< You're a poet now? Don't stop. I mean, STOP.
+< ...But keep it a secret. Always.
+
+> I think I'm addicted to the taste.
+< Addicted?! You'll be rationed. One bottle at a time, or I won't be responsible.
+< ...You're too dangerous when you smile like that.
+
+> Does it taste different depending on your mood?
+< How would I know?! ...Maybe. When I'm angry it's probably bitter. Like you.
+< Drink it anyway. Idiot.
+
+# TEASE: her angry line before she throws you out
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[T_KICK]
+THAT'S ENOUGH! Get out of my room, right now!
+You PERVERT! Out! Get out of my room this instant!
+I've had enough of your filthy mouth! Leave! LEAVE MY ROOM!
+How dare you! Get out before I break your nose!
+OUT! And don't come back until you've learned some manners!
+You've crossed the line, boy! Get out of my sight!
+I can't believe you! Leave my room, NOW!
+Enough! Out! Out! OUT!
+Disgusting! Get out of my room and think about what you said!
+I'm not a toy for you to tease! Get out!
+Say one more word and I'll throw you out the window! LEAVE!
+That's it! You're banned from my room! ...For today! Now GET OUT!
+My patience just ended. Leave my room. Immediately.
+How shameless can you be?! Go! Get out of my room!
+Stupid, stupid boy! Get out, get out, get OUT!
+My room is not your playground! Leave now!
+I'm warning you for the LAST time! Get out of my room!
+
+# TEASE: narration when she throws you out
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[T_OUT]
+Sophia grabs my collar, shoves me out of her room and slams the door in my face.
+I barely dodge the pillow she throws before she pushes me out and locks the door.
+She drags me to the door by my sleeve, tosses me out and slams it shut.
+A slipper hits my back. Then the door slams behind me. I think she's still blushing in there.
+Her face is red as a tomato as she shoves me into the living room and shuts the door.
+I stumble out of her room as the door slams. I can hear her muttering behind it.
+She pushes me out with both hands. I can't stop grinning as the door shuts.
+The door slams so hard the whole wall shakes. I'd better wait before knocking again.
+
+# Her greeting when you knock again the same day after a tease
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_KICKED]
+You've got some nerve knocking again after what you said.
+Hmph. Back again? Behave this time. I mean it.
+I'm still angry. Don't think I've forgotten.
+Tease me one more time and I'll lock the door for a week.
+What now? Are you here to apologize? ...Well?
+My face is still hot, so don't talk to me. Just... sit there.
+Don't say a word about earlier. Not one word.
+You again? Tch. Come in. Quietly.
+
+# Mama mode CHAT: the exchanges (one topic only; you call her Mama)
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_MAMA]
+> Mama, what did you do while I was gone?
+< I waited. ...I mean, I read. And don't call me that!
+
+> Mama, do you like being called that?
+< No! ...Not at all. Stop asking, my face is burning.
+
+> Mama, tell me about your first table.
+< Pennies and a deck missing the jack of clubs. ...Say my name and I'll tell you more.
+
+> Do you ever get tired of me, Mama?
+< Of you? Hmph. No. But I'm getting tired of that name.
+
+> Mama, what should we eat tonight?
+< Don't "mama" me! ...Soup. And you'll eat your vegetables.
+
+> I won a hand today, Mama.
+< ...Good. That was well played. Stop grinning. And stop calling me that.
+
+> Mama, the rain is loud tonight.
+< Don't call me that! ...Come sit by me. I'm not scared. You looked scared.
+
+> Mama, thank you for marrying me.
+< ...Idiot. Don't say that so suddenly. And not with that name.
+< ...I'm happy too. Just a little.
+
+> Mama, will you teach me to bluff better?
+< Look at me and lie. ...See? You smile. That's your tell.
+< And you're not allowed to call me that.
+
+> Mama, I had a bad day.
+< ...Come here. Tell me everything. ...And don't use that word.
+
+> What do you want to do tomorrow, Mama?
+< Nothing. With you. ...Stop calling me that, or I'll do nothing alone.
+
+> Mama, you're always so strong.
+< Don't flatter me. My name is Sophia. ...But thank you.
+
+> Mama, what are you reading?
+< A book on probabilities. ...And try another word, please.
+
+> Mama, can we play cards tonight?
+< Only if you stop calling me that. ...Fine. Deal.
+
+> You're beautiful when you concentrate, Mama.
+< Quiet! I'm counting outs. ...And I'm not your mama.
+
+> Do you want tea, Mama?
+< Yes, please. ...Sophia. The word is Sophia.
+
+> Mama, I missed you today.
+< ...Silly. You were gone two hours. ...I missed you too.
+< Just don't use that name.
+
+> Mama, tell me a story from your tournaments.
+< Once I won a pot with seven-deuce. ...Say my name and I'll tell the rest.
+
+> You're my favorite person, Mama.
+< That's... fine. ...The title is not fine. I refuse it.
+
+> Mama, shall we watch the rain together?
+< Sit. Blanket. ...And that word stays outside, please.
+
+# Mama mode CHAT: she is not in the mood
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FAIL_MM]
+Not now. And stop calling me that.
+Boring. Say something better. And say my name.
+I'm busy being beautiful. Try again later.
+Not that. Think harder. And no silly names.
+My head is full of cards. Ask me later.
+Not now. And that is not my name.
+Hmph. Not in the mood. Try my name next time.
+I'm busy. Come back with something clever.
+Ask me again later. And drop the title.
+That topic bores me. So does that nickname.
+No. Call me by my name first.
+I'm thinking about cards. Try again later.
+Your timing is terrible. And so is that word.
+Not interested. Say something smarter, husband.
+My ears are ringing from that name. Later.
+Not today. I'm not your mother, remember?
+Too noisy in my head. Ask me tomorrow.
+Think before you talk. And think about my name.
+I'm not in the mood. Sit quietly for a bit.
+Mmh. No. Try again, with manners.
+
+# Married (not mama mode) CHAT: her line when the chat is over and the menu comes back (she calls you husband)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_MORE_M]
+Anything else, husband? Hurry up.
+Hmph. Are you done talking, dear?
+Well, husband? Make your move.
+I'm still here. Obviously. Where would I go?
+Ask me something else. Or sit down and be quiet.
+Anything else, husband? Don't dawdle.
+Done? Or is there more on your mind?
+Well? Speak, husband. I'm listening.
+Hmph. Anything else? Think carefully.
+Is that all? Then sit with me.
+Ask me something else. Something interesting.
+More talking? Fine. I don't mind. ...Don't tell anyone.
+Tell me more, husband. Or just stay close.
+You have my attention. Don't waste it.
+What else? Don't be shy now.
+Hm. Your move, husband.
+Come on, don't go quiet on me. Say something.
+I could listen for hours. ...Don't let it go to your head.
+What else is on your mind, dear?
+Go on. Surprise me.
+
+# Mama mode CHAT: her line when the chat is over and the menu comes back
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_MORE_MM]
+Anything else? And no silly names this time.
+Hmph. Go on, say something else. Normally.
+Your turn, husband. What else is on your mind?
+I'm still here. ...Not that I'd go anywhere.
+Ask me something else. Or just sit with me.
+Anything else? And I'm still not your mother.
+Done talking? Then say something sensible.
+What now, husband? Be quick.
+Well? Speak up. Use my name if you want an answer.
+Is that all? Hmph. Fine.
+Still here? Good. ...I mean, whatever.
+Go on. I'm listening. Unfortunately.
+Anything else? No pet names this time.
+I could listen to you all night. ...Don't tell anyone.
+Tell me more. Or just stay close and be quiet.
+What else? And drop that word before you ask.
+Hm. Your turn. Choose carefully.
+Come on, husband. I haven't got all day.
+Is there something else on your mind? Besides that name?
+Sit with me. And if you must talk, talk normally.
+
+# Mama mode TEASE topic: her looks. Every tease still ends with her sending you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_LOOKS_MM]
+> Mama, you look beautiful today.
+< Don't call me that! ...But thank you. Don't tell anyone I said that.
+
+> Everyone in this condominium is jealous of me, Mama.
+< Then stop saying it so loudly! ...And my name is Sophia.
+
+> Mama, can I just look at you for a while?
+< ...Fine, look. But not while using that word. And don't drool.
+
+> I could stare at you all day, Mama.
+< Say that again with my real name. ...No, wait, don't!
+
+> Your eyes are prettier than any queen of hearts, Mama.
+< Flattery won't work. ...Not while you use that name. ...Hmph.
+
+> Mama, you're glowing today.
+< Glowing? ...Fine. But I have a name, and it isn't that.
+
+> Mama, who did your hair? It's perfect.
+< Nobody. I'm naturally like this. And pick another word, please.
+
+> You'd win any beauty contest, Mama.
+< I'd win anything I entered. ...Say my name next time.
+
+> Mama, I can't stop looking at your smile.
+< Then look somewhere else! ...Wait, no. Just drop the title.
+
+> You're the prettiest woman in this condominium, Mama.
+< I'm the prettiest woman anywhere. That is not my name, though.
+< ...Hmph. Thank you.
+
+> Mama, your hair smells nice.
+< Stop sniffing me! And who raised you to call your wife that?
+
+> That pose suits you, Mama.
+< I'm not posing. ...Mama? Do I look like a mother to you?
+
+# Mama mode TEASE topic: her shirt. Every tease still ends with her sending you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_SHIRT_MM]
+> Mama, that shirt is really tight on you.
+< It's YOUR fault, those pills! And stop calling me that!
+
+> Is that button holding on for dear life, Mama?
+< Eyes up! And don't call me that, or I'll button your mouth!
+
+> Mama, want me to help with the shirt?
+< Absolutely not! ...And don't make it worse with that name.
+
+> That color suits you, Mama.
+< I know it does. But you're not looking at the color.
+< ...And stop saying that.
+
+> You look cozy in that, Mama.
+< It's comfortable, that's all. ...Don't smile at me like that.
+
+> Mama, is that shirt a size too small?
+< Two sizes! Thanks to your pill! ...And that word is banned in this room.
+
+> Mama, one button is hanging by a thread.
+< Then stop staring at it! My name has six letters. Use them.
+
+> That shirt shows off your figure, Mama.
+< It's just a shirt! ...Hmph. Not that title again.
+
+> Should I buy you a bigger shirt, Mama?
+< ...That's actually thoughtful. Don't spoil it with that word.
+
+> Mama, the shirt looks warm. Can I borrow it?
+< It would never fit you! ...And I am not your mother.
+
+> Mama, you keep tugging at your collar.
+< It's tight! Don't comment! ...And say Sophia, not that.
+
+> Nice shirt, Mama. Very... stretchy.
+< Say that again and I'll stretch your ears! Idiot.
+
+# Mama mode TEASE topic: her chest. Every tease still ends with her sending you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_CHEST_MM]
+> Mama, does it feel heavy today?
+< ...Don't ask me that! And don't call me that. ...Yes, a little.
+
+> Your chest looks so soft, Mama.
+< Stop staring! Eyes up. If you must say anything, use my name!
+
+> Mama, may I rest my head there?
+< No! Absolutely not! ...Not while you call me that. Maybe not at all.
+
+> I could fall asleep against you, Mama.
+< You already do. ...That doesn't mean you can call me that.
+
+> Is it aching, Mama? I can help.
+< Don't ask in that voice! ...Check the gauge first, and ask properly.
+
+> Mama, is it sore today?
+< ...A little. Don't ask in that tone! I'm not your mother.
+
+> Mama, you're always so gentle with me.
+< I am not! ...Fine, a little. But try my real name first.
+
+> May I just sit beside you, Mama?
+< Beside. Only beside. And that title is not allowed in here.
+
+> Mama, I'll be careful with you. I promise.
+< You'd better be. ...Sophia. The word you're looking for is Sophia.
+
+> Does it still ache at night, Mama?
+< Sometimes. ...Don't make that worried face. And stop saying that.
+
+> You're so soft, Mama. Everything about you.
+< Hmph. Flattery again. ...I have a name, you know.
+
+> I'll fetch a blanket for you, Mama.
+< ...That's kind. Just don't call me that. Not even kindly.
+
+# Mama mode TEASE topic: her body. Every tease still ends with her sending you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_BODY_MM]
+> Mama, you're so warm.
+< Stop poking me! ...And stop calling me that.
+
+> Your figure is unfair, Mama.
+< Life is unfair. ...Don't use that name to flatter me.
+
+> Mama, can I hug your waist?
+< Hands where I can see them! And I am NOT your mama.
+
+> Did the pills really change this much, Mama?
+< Don't say it out loud! ...Yes. More than I like. And don't call me that!
+
+> You carry it so gracefully, Mama.
+< Naturally. A queen carries everything gracefully. ...Not "mama", though.
+
+> Mama, can I lean on you for a moment?
+< A moment. ...And that's not my name. Try again.
+
+> You always smell like warm soap, Mama.
+< It's just soap! Stop sniffing. And I'm nobody's mama here.
+
+> Mama, your hands are so soft.
+< I moisturize. A queen has standards. ...Don't use that word.
+
+> I'd carry you anywhere, Mama.
+< You can't even carry the groceries. ...And that's not what I'm called.
+
+> You're like a warm blanket, Mama.
+< A blanket?! ...Hmph. Fine. But say my name if you want a hug.
+
+> Mama, you look so tall in those shoes.
+< They're heels, idiot. ...Wrong word. Say Sophia.
+
+> Can I hold your hand, Mama?
+< ...Fine. Just the hand. And choose another title.
+
+# Mama mode TEASE topic: her milk (locked until the first bottle). Every tease still ends with her sending you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_MILK_MM]
+> Mama, is the milk ready yet?
+< Don't ask like that! ...Ask nicely, with my name, and maybe.
+
+> I've been thinking about the bottle all day, Mama.
+< Greedy! ...Come back when the gauge is full. And call me properly.
+
+> Mama, your milk is the best thing in this condominium.
+< Who told you to say that out loud?! ...And who told you to call me that?!
+
+> Mama, do you ever get tired of making it?
+< It aches when it's full. That's all. ...It isn't a chore. Don't make me say more.
+
+> Mama, can I have a little right now?
+< Not on demand! And certainly not with that name. Check the gauge.
+
+> Mama, how full is the gauge today?
+< Check it yourself! ...And no, I'm not your mother.
+
+> Mama, would you share a little tonight?
+< Ask properly, with my name. Not that word. Never that word.
+
+> Mama, I'll do the dishes for a bottle.
+< Hmph. A bribe? ...Not bad. But call me something else.
+
+> Does it hurt when it's full, Mama?
+< A bit. Don't look at me like that! And that title stays outside.
+
+> Mama, I'll take good care of the bottle.
+< You'd better. ...Sophia. Say Sophia.
+
+> Mama, I made tea. Drink first, then we talk.
+< ...Tea? That's actually kind. Hmph. But don't call me that.
+
+> I'm so grateful, Mama.
+< Don't be dramatic! ...And be grateful to Sophia, not to some mama.
+
+# Mama mode TEASE topic: milk taste (locked until the first bottle). Every tease still ends with her sending you out
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[T_TASTE_MM]
+> Mama, it tastes sweet today.
+< It does not taste like anything special! ...Does it really taste sweet?
+
+> Is it always this sweet, Mama?
+< How would I know?! I can't taste it myself! And don't call me that!
+
+> I could drink it forever, Mama.
+< You'll be rationed. ...And nothing at all while you call me that.
+
+> It tastes like something warm, Mama.
+< Stop describing it! ...Warm? ...No! Stop! I said stop!
+
+> Thank you for the milk, Mama.
+< ...You're welcome. But call me that once more and no more bottles.
+< ...That was a joke. Mostly.
+
+> Mama, it tastes better every time.
+< Stop reviewing it! ...And that is not my name.
+
+> It's like warm honey, Mama.
+< Honey?! Don't say things like that out loud! ...Mama? No!
+
+> Mama, could I have a little more tonight?
+< You're asking for seconds?! ...Use my name, or no.
+
+> I'll never forget the taste, Mama.
+< Forget it. Please. ...And I'm not your mother.
+
+> It's so sweet and warm, Mama.
+< Stop describing it!! ...Pick another word, any other word!
+
+> Mama, you're so generous.
+< I'm not generous, I'm... full. ...Don't use that name!
+
+> Mama, thank you for always sharing.
+< ...Don't thank me. And don't use that word to do it.
+< ...You're welcome.
+
+# Mama mode TEASE: her flustered line before she sends you out
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[T_KICK_MM]
+THAT'S ENOUGH, husband! Out! And stop calling me that!
+I am NOT your mama! Out, out, OUT!
+Go! Before I lose my composure!
+Out of my room, you shameless idiot!
+One more word and I'll lock the door! OUT!
+Too much! TOO MUCH! Get out of here!
+That's it! Out! And that is NOT my name!
+Enough! I'm not your mother! OUT!
+My face is on fire, you idiot! Get OUT!
+Out! Out! Out! And take that word with you!
+You've gone too far, husband! Go cool off!
+I said stop! Now go, before I throw something!
+Don't you dare say it again! Out of my room!
+Too embarrassing! OUT! Out this instant!
+You and your mouth! Get out of here, idiot!
+I'm calling security! ...No, I'm calling YOU out! GO!
+That does it! My name is Sophia! NOW LEAVE!
+Shameless! Absolutely shameless! OUT!
+I can't take it anymore! Go! Shoo!
+Husband or not, that is the end of it! OUT!
+
+# Mama mode TEASE: narration when she sends you out
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[T_OUT_MM]
+Sophia pushes me out with both hands, her whole face red, and slams the door on my grin.
+A pillow bounces off my back. The door closes. Behind it I hear her muttering, "Not your mama!"
+She shoos me out like a stray cat and slams the door. "Idiot," she says through the wood.
+She marches me to the door by my collar and locks it. Her ears were bright red.
+The door closes with a bang. Through the wood I hear her breathing, trying to calm down.
+Sophia shoves me into the hall, red to her ears, and the door slams shut.
+A cushion hits my head and the door shuts. I hear her huff, "Not your mama!"
+She pushes me out with both hands and locks the door. Her whole face is red.
+Sophia points at the door with a trembling finger. I leave quickly, grinning.
+The door slams. Something soft hits it from the inside. She is still mumbling.
+She tugs my sleeve all the way to the door, her ears glowing, and shuts it behind me.
+I get a pillow to the face and a door in the nose. Worth it.
+Sophia herds me out, muttering about the name. The lock clicks.
+She turns her back, shoulders shaking, and orders me out. I obey.
+The door closes, then opens a crack. "Idiot," she whispers, and shuts it again.
+Sophia stomps to the door, red as a tomato, and bangs it shut on my laughter.
+She shoos me into the hallway. I hear her fanning herself through the wood.
+The lock clicks. Through the wood I hear her whisper, "Stupid husband."
+She shoves a pillow at me and the door at my back. Then there is only muttering.
+I'm out in the hall before I can speak. The whole door shakes with her slam.
+
+# Married (not mama mode) TEASE: her angry line before she throws you out (she calls you husband)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[T_KICK_M]
+That's enough, husband! Get out of my room, right now!
+You shameless idiot! Out! I mean it!
+Husband or not, you've crossed the line! GET OUT!
+My patience just ended. Out. Immediately.
+I'm warning you for the LAST time, husband! Out!
+You're banned from my room! ...For today! GO!
+That's enough, husband! Out of my sight!
+You're impossible! Out, before I lose my temper!
+Husband or not, there are limits! LEAVE!
+One more word and you sleep on the sofa! OUT!
+Out! And think about what you just said!
+My face is burning, you fool! Out!
+That's the last straw, husband! Go!
+How dare you say that out loud! Get OUT!
+I need space. Immediately. GO!
+Out of my room! Come back when you've calmed down!
+Stop it! I mean it! Now get out!
+You shameless man! Out, out, out!
+I won't listen to this! The door is that way!
+Go cool off, husband. Preferably far away. OUT!
+
+# Mama mode: her greeting when you knock again the same day after a tease
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_KICKED_MM]
+You're still in trouble, husband. ...Come in, quietly.
+I'm still blushing, so no talking about earlier.
+Back already? Hmph. Behave this time, I mean it.
+I haven't forgiven you yet. ...Come in anyway.
+Don't mention earlier. And not that name. Not a word.
+You're back already? ...Sit there, and no teasing.
+After earlier I should lock the door. ...Come in.
+I'm still red from before. Don't mention it.
+I won't discuss that name. Come in, quietly.
+Hmph. You again. One word out of line and you're out.
+Come in. I forgave you. Slightly.
+Behave, husband. I mean it this time.
+Don't smirk. I haven't forgotten what you said.
+Knock, knock. Of course it's you. ...Come in.
+Say that word again and you're out for the week.
+My ears are still hot. Be gentle with me.
+I should still be angry. ...Come in.
+Sit. Quietly. No names, no teasing.
+Tch. Stubborn. Come in and be good.
+You shameless idiot. ...Come in, then.
+
+# Cow mode (she wears the cow print outfit) CHAT - her line when the chat is over and the menu comes back
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_MORE_CW]
+Anything else? Hurry up. This outfit itches.
+Are you done? I'd like to get out of these clothes.
+Hmph. Well? What else do you want from me?
+Is that all? I feel ridiculous standing here.
+Done talking? Then what else, husband?
+Ugh. Is there more? Make it quick.
+
+# Cow mode + Mama (she wears the cow print outfit and you call her Mama) CHAT - her line when the chat is over and the menu comes back
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_MORE_CW_MM]
+Anything else? And not that name, please.
+Are you done? I'm not your mama, I'm just stuck in this outfit.
+Hmph. What else do you want? No names this time.
+Is that all? I feel ridiculous. Make it quick.
+Done? Then what else, husband? Husband, understood?
+Ugh. More? Hurry up, and keep that word to yourself.
+
+# Cow mode (she wears the cow print outfit) CHAT - she is not in the mood
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FAIL_CW]
+Not now. I'm too disgusted with myself to talk.
+Go away. I'm busy hating this outfit.
+Not in the mood. Look at me, I'm dressed like a barn animal.
+Boring. And these spots itch. Try again later.
+Not now. Ask me when I'm in normal clothes.
+I'm in no state to chat. Ask me again later.
+
+# Cow mode + Mama (she wears the cow print outfit and you call her Mama) CHAT - she is not in the mood
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[C_FAIL_CW_MM]
+Not now. And stop calling me that.
+Go away. I'm busy hating this outfit, and that name.
+Not in the mood. Not a cow, not a mama. Ask me later.
+Boring. These spots itch. And no names.
+Not now. Ask when I'm in normal clothes.
+I'm in no state to chat, and you know why.
+
+# Cow mode CHAT: the exchanges (one topic only; she is disgusted by the outfit but still talks)
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_COW]
+> Do you want some tea, Sophia?
+< Yes. ...And no, I'm not going to thank you in this ridiculous outfit.
+
+> You look... interesting today.
+< Interesting?! Say that again and I'll feed you the spots. I feel disgusting.
+
+> Want to play cards tonight?
+< Only if I'm dressed properly. ...Fine. Deal. And stop looking at me.
+
+> I missed you today.
+< ...You saw me an hour ago. Ugh. I missed you too. Don't tell anyone.
+< And don't look at the outfit.
+
+> Is the outfit really that bad?
+< It's revolting. The fabric itches and it shows everything.
+< ...And you know that. Stop smiling.
+
+> Shall we watch the rain together?
+< Fine. Sit. A blanket for me. A big one. To cover this nonsense.
+
+> What are you thinking about?
+< How much I'd like to burn this outfit. And how you'd cry if I did.
+
+> You're my favorite person, Sophia.
+< ...That is the only thing keeping me from tearing this off. Don't push it.
+
+# Cow mode + Mama CHAT: the exchanges (one topic only; you call her Mama)
+# > = what you say, < = her answer, second < = her second line (optional); a blank line between exchanges; each text: one dialogue page, 3 lines of 46 characters at most
+[C_COW_MM]
+> Mama, do you want some tea?
+< Yes. ...And don't call me that. I'm not your mama, and I'm certainly not a cow.
+
+> You look so cute today, Mama.
+< Stop it! Cute?! I feel disgusting. And that name makes it worse.
+
+> Mama, can we play cards tonight?
+< Only if you stop that name. And let me change first. ...Fine. Deal.
+
+> Mama, I missed you today.
+< ...Silly. It was an hour. Ugh. I missed you too.
+< Just don't say that name. Or look at this outfit.
+
+> Mama, is the outfit that bad?
+< It's revolting. Don't ask me again, and don't call me that.
+< ...I hate it. Stop smiling.
+
+> Mama, shall we watch the rain?
+< Sit. A big blanket. And that word stays outside. So does my dignity.
+
+> What are you thinking about, Mama?
+< How to burn this outfit. And how to get you to stop that name.
+
+> You're my favorite person, Mama.
+< That's... fine. The title is not fine. The outfit isn't either. Don't push it.
+
+# CHAT: the 3rd chat of the day is over (and CHAT again the same day): she has talked enough and goes to her bedroom
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_CHAT_DONE]
+That's enough talking for today. I'm going to my room, boy.
+I'm tired of talking. Leave me alone now, boy.
+Three chats are plenty. Come back tomorrow, boy.
+No more today. I need some quiet. Go away, boy.
+Enough. I'm done with your questions for today.
+I'm going to my room. Don't follow me, boy.
+
+# Married (not mama mode) CHAT: she has talked enough for today (3 chats a day)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_CHAT_DONE_M]
+That's enough talking for today, husband. I need some quiet.
+I've talked enough, husband. I'm going to my room.
+Three chats are plenty. Try again tomorrow, dear.
+No more today, husband. Let me rest a little.
+Enough for today. I'm going to lie down in my room.
+I'm out of words today, husband. Tomorrow.
+
+# Mama mode CHAT: she has talked enough for today (3 chats a day)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_CHAT_DONE_MM]
+That's enough talking for today. I'd like some quiet, husband.
+I've talked enough for today. I'm going to my room.
+Three chats are plenty. Come back tomorrow. Normally.
+No more today, husband. I need to rest.
+Enough for today. Don't call me that name tomorrow either.
+I'm out of words today. See you tomorrow, husband.
+
+# Cow mode (she wears the cow print outfit) CHAT: she has talked enough for today (3 chats a day)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_CHAT_DONE_CW]
+That's enough talking. I'm going to my room to take this off.
+I've talked enough, husband. Let me out of this outfit.
+Three chats are plenty. Tomorrow. Ugh, this itches.
+No more today. I feel ridiculous. I'm leaving.
+Enough. I'm going to change out of this thing.
+I'm done for today, husband. Go away. Please.
+
+# Cow mode + Mama (she wears the cow print outfit and you call her Mama) CHAT: she has talked enough for today (3 chats a day)
+# one line per entry, add or remove lines freely; each text: one dialogue page, 3 lines of 46 characters at most
+[R_CHAT_DONE_CW_MM]
+That's enough talking. I'm going to my room. And not that name.
+I've talked enough, husband. Let me out of this outfit.
+Three chats are plenty. Tomorrow. And no names then.
+No more today. I feel ridiculous. I'm leaving.
+Enough. I'm going to my room. I'm not your mama.
+I'm done for today, husband. Go away. Please.
